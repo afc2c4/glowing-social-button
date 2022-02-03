@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #01011c;
+}
+
+input {
+    -webkit-appearance: none;
+    display: none;
+    visibility: hidden;
+}
+
+ol {
+    display: flex;
+    list-style: none;
+}
+
+ol li {
+    margin: 0 60px;
+}
+
+ol li span {
+    font-size: 100px;
+    color: #b3b3b3;
+    cursor: pointer;
+}
+
+input:checked~.fa-twitter {
+    color: #00fffc;
+    text-shadow: 0 0 80px #00fffc, 0 0 80px #00fffc;
+}
+
+input:checked~.fa-github {
+    color: #f6ff01;
+    text-shadow: 0 0 80px #f6ff01, 0 0 80px #f6ff01;
+}
+
+input:checked~.fa-instagram {
+    color: #ff00ae;
+    text-shadow: 0 0 80px #ff00ae, 0 0 80px #ff00ae;
+}
+
+input:checked~.fa-youtube {
+    color: #ff0000;
+    text-shadow: 0 0 80px #ff0000, 0 0 80px #ff0000;
+}
+
+input:checked~.fa-vimeo {
+    color: #00ff00;
+    text-shadow: 0 0 80px #00ff00, 0 0 80px #00ff00;
+}
+
+input:checked~.fa-thumbs-up {
+    color: #0e02ff;
+    text-shadow: 0 0 80px #0e02ff, 0 0 80px #0e02ff;
+}
